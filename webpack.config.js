@@ -70,8 +70,8 @@ module.exports = {
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
-              hmr: isDev,
-              reloadAll: true,
+              // hmr: isDev,
+              // reloadAll: true,
             },
           },
           'css-loader',
